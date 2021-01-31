@@ -1,0 +1,9 @@
+优先队列 Priority Queue
+插入操作 O(1)
+取出操作 O(logN) 按照元素的优先级取出
+底层具体实现的数据结构较为多样和复杂：heap、bst，treap可以有多种不同的实现
+
+队列  Queue First in First Out   添加删除 O(1) 查询O(N)
+Insert add(e) offer(e)
+Remove remove poll()
+Examine elememt() peek()
